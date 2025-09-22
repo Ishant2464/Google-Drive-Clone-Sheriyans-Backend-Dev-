@@ -1,0 +1,50 @@
+# Drive Clone Backend
+
+Backend application for a Google Drive-style file storage system. Users can register, authenticate, upload/download files, and view file metadata.
+
+---
+
+## Table of Contents
+
+- [Features](#features)  
+- [Tech Stack](#tech-stack)  
+- [Setup & Installation](#setup--installation)  
+- [Environment Variables](#environment-variables)  
+- [API Endpoints](#api-endpoints)  
+- [Usage](#usage)  
+- [Future Roadmap](#future-roadmap)  
+- [License](#license)
+
+---
+
+## Features
+
+- User authentication (register/login)  
+- Protected routes via middleware  
+- File upload (single file) using Multer + Firebase Storage  
+- Store file metadata (original name, path, owner ID) in MongoDB  
+- File download/access via link  
+- Simple front-end views (if applicable) using EJS  
+
+---
+
+## Tech Stack
+
+| Component | Technology |
+|-----------|------------|
+| Server / Runtime | Node.js |
+| Framework | Express.js |
+| Database | MongoDB |
+| File Storage | Firebase Storage |
+| File Upload Handling | Multer + multer-firebase-storage |
+| Environment / Config | dotenv |
+
+---
+
+## Setup & Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/<your-username>/Google-Drive-Clone-Sheriyans-Backend-Dev-.git
+cd Google-Drive-Clone-Sheriyans-Backend-Dev-
