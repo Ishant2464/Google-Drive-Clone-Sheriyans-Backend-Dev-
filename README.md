@@ -45,7 +45,6 @@ Backend application for a Google Drive-style file storage system. Users can regi
 
 1. Clone the repository:
 
-```bash
 git clone https://github.com/<your-username>/Google-Drive-Clone-Sheriyans-Backend-Dev-.git
 cd Google-Drive-Clone-Sheriyans-Backend-Dev-
 
