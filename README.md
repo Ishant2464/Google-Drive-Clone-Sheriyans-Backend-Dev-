@@ -48,3 +48,27 @@ Backend application for a Google Drive-style file storage system. Users can regi
 ```bash
 git clone https://github.com/<your-username>/Google-Drive-Clone-Sheriyans-Backend-Dev-.git
 cd Google-Drive-Clone-Sheriyans-Backend-Dev-
+
+Install dependencies:
+
+npm install
+
+
+Create environment file:
+
+cp .env.example .env
+
+
+Add the following environment variables in .env:
+
+PORT=5000
+MONGO_URI=<your MongoDB connection string>
+FIREBASE_PROJECT_ID=<your firebase project id>
+FIREBASE_CLIENT_EMAIL=<firebase client email from serviceAccount JSON>
+FIREBASE_PRIVATE_KEY=<firebase private key>
+FIREBASE_STORAGE_BUCKET=<your storage bucket name (e.g. drive-8ef11.firebasestorage.app)>
+
+
+Start the server:
+
+npm start
